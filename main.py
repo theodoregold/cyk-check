@@ -16,6 +16,10 @@ productions = { # <-- ENTER YOUR OWN PRODUCTIONS
 	# "B": ("BB", "b"),
 	# remember to change start_symbol to S
 
+	# aaaabbaabbbacbbacac - not part of gramar
+	# bbbaaacaaaacbbbbbbc - not part of gramar
+	# aaaabbaaaaaaaacaaac - not part of gramar
+	
 	"P": ("HV", "HZ", "EI", "HH", "S1", "FD", "BC", "AC", "AO", "FN", "EQ", "EG"), 
 
 	"A": ("EC", "ER", "EL"), 
