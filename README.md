@@ -6,7 +6,7 @@ At the time, I couldn't find any simple/understandable implementation of CYK alg
 Note: Your language must be in ![Chomsky form](http://en.wikipedia.org/wiki/Chomsky_normal_form).
 
 ### Getting started
-It's really straight forward. Change `productions` dictonary variable to your specific productions and run it. Enter any word and see if it is part of the grammer.
+It's really straight forward. Change `productions` and `start_symbol` variables to your specific case. Then, just run it. Enter any word and see if it is part of the grammer.
 
 ### TO-DO
  * include grammer from seperate JSON file in runtime
