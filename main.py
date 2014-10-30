@@ -16,9 +16,9 @@ productions = { # <-- ENTER YOUR OWN PRODUCTIONS
 	# "B": ("BB", "b"),
 	# remember to change start_symbol to S
 
-	# aaaabbaabbbacbbacac - not part of gramar
-	# bbbaaacaaaacbbbbbbc - not part of gramar
-	# aaaabbaaaaaaaacaaac - not part of gramar
+	# aaaabbaabbbacbbacac - is part of gramar
+	# bbbaaacaaaacbbbbbbc - is part of gramar
+	# aaaabbaaaaaaaacaaac - is not part of gramar
 	
 	"P": ("HV", "HZ", "EI", "HH", "S1", "FD", "BC", "AC", "AO", "FN", "EQ", "EG"), 
 
@@ -30,25 +30,25 @@ productions = { # <-- ENTER YOUR OWN PRODUCTIONS
 	"F": ("ET", "HW", "EC", "EL", "ER"), 
 	"G": ("FK", "c"),
 	"H": ("b"),
-	"I": ("EJ"),
+	"I": ("EJ",), # add a comma if only one 
 	"J": ("AM", "HH"),
 	"K": ("c"), 
 	"L": ("EA", "a"), 
-	"M": ("HH"),
-	"N": ("EG"),
-	"O": ("EQ"), 
+	"M": ("HH",),
+	"N": ("EG",),
+	"O": ("EQ",), 
 
-	"R": ("EB"), 	
+	"R": ("EB",), 	
 	"S": ("HV", "HZ", "EI", "HH", "S1", "FD", "BC", "AC", "AO", "FN", "EQ", "EG"), 
-	"T": ("EU"),
-	"U": ("EC"), 
+	"T": ("EU",),
+	"U": ("EC",), 
 	"V": ("CA", "BC", "AC", "AO", "EQ"), 
-	"Z": ("HC"), 
+	"Z": ("HC",), 
 
-	"1": ("HH"), 
-	"W": ("HH"),  
-	"Q": ("BX"), 
-	"X": ("HK"), 
+	"1": ("HH",), 
+	"W": ("HH",),  
+	"Q": ("BX",), 
+	"X": ("HK",), 
 }
 
 # table to store calculations
