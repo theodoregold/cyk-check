@@ -1,9 +1,9 @@
 ### What is this?
-Small Python script for checking if a word is part of ![CFG (Context-free Grammar)](http://en.wikipedia.org/wiki/Context-free_grammar) or not. This script is implementing ![CYK (Cocke–Younger–Kasami) algorithm](http://en.wikipedia.org/wiki/CYK_algorithm). 
+Small Python script for checking if a word is part of [CFG (Context-free Grammar)](http://en.wikipedia.org/wiki/Context-free_grammar) or not. This script is implementing [CYK (Cocke–Younger–Kasami) algorithm](http://en.wikipedia.org/wiki/CYK_algorithm). 
 
 At the time, I couldn't find any simple/understandable implementation of CYK algorithm that I liked. If you have any questions feel free to contact me@teodors.lv. 
 
-Note: Your language must be in ![Chomsky form](http://en.wikipedia.org/wiki/Chomsky_normal_form).
+Note: Your language must be in [Chomsky form](http://en.wikipedia.org/wiki/Chomsky_normal_form).
 
 ### Getting started
 It's really straight forward. Change `productions` and `start_symbol` variables to your specific case. Then, just run it. Enter any word and see if it is part of the grammer.
