@@ -7,7 +7,7 @@ word_length = 0
 max_steps = word_length * 2 - 1
 
 # production rules
-start_symbol = "P" # <-- CHANGE THIS HERE
+start_symbol = "S" # <-- CHANGE THIS HERE
 productions = { # <-- ENTER YOUR OWN PRODUCTIONS
 
 	# works perfect with this simple grammer
@@ -16,39 +16,27 @@ productions = { # <-- ENTER YOUR OWN PRODUCTIONS
 	# "B": ("BB", "b"),
 	# remember to change start_symbol to S
 
-	# aaaabbaabbbacbbacac - is part of gramar
-	# bbbaaacaaaacbbbbbbc - is part of gramar
-	# aaaabbaaaaaaaacaaac - is not part of gramar
+	# aaaaaabbaaacaaabbbbcbbab - is NOT part of gramar
+	# bbbabbbaabbbabbbaabbbaccc - is part of gramar
+	# aabbbbaaabbbbbbaabbbaccbb - is part of gramar
 	
-	"P": ("HV", "HZ", "EI", "HH", "S1", "FD", "BC", "AC", "AO", "FN", "EQ", "EG"), 
+	"S": ("ZJ", "HJ", "BB", "SJ", "VN", "YN", "QN", "QC", "YC", "AC"),
+	"E": ("BJ", "HF", "HS", "AA"),
+	"F": ("HF", "HS", "AA"),
 
-	"A": ("EC", "ER", "EL"), 
-	"B": ("HH", "S1", "BC", "AC", "AO", "EQ", "FN", "EG", "HV", "HZ", "EI", "FD"), 
-	"C": ("BC", "AC", "EQ", "AO"), 
-	"D": ("FN", "EG"),
-	"E": ("a"), 
-	"F": ("ET", "HW", "EC", "EL", "ER"), 
-	"G": ("FK", "c"),
-	"H": ("b"),
-	"I": ("EJ",), # add a comma if only one 
-	"J": ("AM", "HH"),
-	"K": ("c"), 
-	"L": ("EA", "a"), 
-	"M": ("HH",),
-	"N": ("EG",),
-	"O": ("EQ",), 
+	"Z": ("HF",),
+	"Y": ("EA",),
+	"Q": ("AE",),
 
-	"R": ("EB",), 	
-	"S": ("HV", "HZ", "EI", "HH", "S1", "FD", "BC", "AC", "AO", "FN", "EQ", "EG"), 
-	"T": ("EU",),
-	"U": ("EC",), 
-	"V": ("CA", "BC", "AC", "AO", "EQ"), 
-	"Z": ("HC",), 
+	"V": ("YE",),
+	"N": ("EC",),
 
-	"1": ("HH",), 
-	"W": ("HH",),  
-	"Q": ("BX",), 
-	"X": ("HK",), 
+	"H": ("AA",),
+	"J": ("BB",),
+
+	"A": ("a",),
+	"B": ("b",),
+	"C": ("c",),
 }
 
 # table to store calculations
